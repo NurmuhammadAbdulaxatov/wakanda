@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #0077c0;
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+header svg {
+  width: 170px;
+  height: 80px;
+  cursor: pointer;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  margin-right: 30px;
+}
+header nav ul li {
+  text-decoration: none;
+}
+
+.showcase {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.showcase .portion {
+  flex: 1;
+}
+.showcase .portion h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 125%;
+  padding-bottom: 30px;
+}
+.showcase .portion p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  width: 400px;
+  padding-bottom: 40px;
+}
+.showcase .portion img {
+  max-width: 75%;
+  margin-left: 90px;
+}
+
+.showcase-icons {
+  max-width: 70%;
+  margin-left: -130px;
+}
+
+.feature {
+  background-color: #0077c0;
+  padding: 70px;
+}
+.feature .feature-text h3 {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+.feature .feature-text h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: white;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.feature .feature-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.feature .feature-cards .card-1 {
+  color: white;
+}
+.feature .feature-cards .card-1 h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.feature .feature-cards .card-1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.talent {
+  padding: 90px 0;
+}
+.talent .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.talent .section .portion {
+  flex: 1;
+}
+.talent .section .portion img {
+  max-width: 80%;
+}
+.talent .section .portion h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+.talent .section .portion .nothing {
+  display: flex;
+  margin-top: 50px;
+}
+.talent .section .portion .nothing .nums {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.talent .section .portion .nothing .nums .num {
+  width: 30px;
+  height: 30px;
+  background-color: #c7eeff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.talent .section .portion .nothing .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  margin-left: 10px;
+}
+
+.explore {
+  background-color: #c7eeff;
+}
+.explore .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.explore .section .portion {
+  flex: 1;
+}
+.explore .section .portion img {
+  max-width: 100%;
+}
+.explore .section .portion h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 125%;
+}
+.explore .section .portion p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  width: 470px;
+  margin: 40px 0;
+}
+
+.testimonial {
+  background-color: #fafafa;
+  padding: 60px 0;
+}
+.testimonial .texts h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0077c0;
+}
+.testimonial .texts h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.testimonial .comments {
+  display: flex;
+  gap: 50px;
+}
+.testimonial .comments .card-1-4 {
+  flex: 1;
+}
+.testimonial .comments .card-1-4 .comment-1 {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.testimonial .comments .card-1-4 .comment-1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+.testimonial .comments .card-1-4 .comment-1 .bio {
+  display: flex;
+}
+.testimonial .comments .card-1-4 .comment-1 .bio img {
+  width: 50px;
+}
+.testimonial .comments .card-1-4 .comment-1 .bio .star {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.testimonial .comments .card-1-4 .comment-1 .bio .star h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.testimonial .comments .card-1-4 .comment-1 .bio .star img {
+  width: 100px;
+}
+
+.business {
+  background-color: #0077c0;
+  margin: 70px 0;
+  padding: 0 80px;
+}
+.business .section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.business .section .portion {
+  flex: 1;
+}
+.business .section .portion h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3px;
+  color: white;
+}
+.business .section .portion h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  color: white;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.business .section .portion .btn {
+  background-color: white;
+  color: #0077c0;
+}
+
+footer {
+  background-color: #1d242b;
+  color: white;
+  padding: 50px 0;
+}
+footer .section {
+  display: flex;
+  justify-content: space-between;
+}
+footer .section strong {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer .section ul li {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 36px;
+  list-style: none;
+  cursor: pointer;
+}
+footer .section .f-logos p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 30px;
+}
+footer .section .subscribe {
+  display: flex;
+  flex-direction: column;
+}
+footer .section .subscribe input {
+  background-color: rgb(75, 75, 75);
+  color: rgb(209, 209, 209);
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+footer .section .subscribe input::-moz-placeholder {
+  color: rgb(209, 209, 209);
+}
+footer .section .subscribe input:-ms-input-placeholder {
+  color: rgb(209, 209, 209);
+}
+footer .section .subscribe input::placeholder {
+  color: rgb(209, 209, 209);
+}
